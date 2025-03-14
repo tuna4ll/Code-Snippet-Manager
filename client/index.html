@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Snippet Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Code Snippet Manager</h1>
+
+    <div class="form">
+      <input type="text" id="title" placeholder="Snippet Title">
+      <textarea id="code" placeholder="Your code here..."></textarea>
+      <input type="text" id="tags" placeholder="Tags (comma separated)">
+      <button onclick="saveSnippet()">Save Snippet</button>
+    </div>
+
+    <div class="search">
+      <input type="text" id="search" placeholder="Search Snippets..." onkeyup="searchSnippets()">
+    </div>
+
+    <div class="snippets-list" id="snippets-list">
+      <!-- Code snippets will appear here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
