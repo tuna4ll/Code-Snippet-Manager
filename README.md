@@ -11,7 +11,7 @@ A simple tool to store, organize, and search your code snippets.
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript
+- Node.Js HTML, CSS, Express
 - JSON for storing snippets
 
 ## How to Use
